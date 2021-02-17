@@ -39,7 +39,9 @@ class PostsView extends StatelessWidget {
               child: Text('Error occured: ${state.error}'),
             );
           } else {
-            return Container();
+            return GridView(
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 2));
           }
         },
       ),
