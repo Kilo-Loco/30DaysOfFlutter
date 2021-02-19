@@ -1,4 +1,4 @@
-import 'package:day16_pokedex_app/pokemon_page_response.dart';
+import 'package:day16_pokedex_app/data/pokemon_page_response.dart';
 import 'package:flutter/material.dart';
 
 abstract class PokemonState {}
