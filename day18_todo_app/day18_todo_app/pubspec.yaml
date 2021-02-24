@@ -24,6 +24,9 @@ dependencies:
   flutter:
     sdk: flutter
 
+  amplify_flutter: "<1.0.0"
+  amplify_datastore: "<1.0.0"
+  flutter_bloc: ^6.1.2
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
