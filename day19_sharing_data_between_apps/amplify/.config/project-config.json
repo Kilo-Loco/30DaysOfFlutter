@@ -1,10 +1,10 @@
 {
-  "projectName": "day18_todo_app",
-  "version": "2.0",
-  "frontend": "flutter",
   "providers": [
     "awscloudformation"
   ],
+  "projectName": "simple flutter todo app",
+  "version": "3.0",
+  "frontend": "flutter",
   "flutter": {
     "config": {
       "ResDir": "./lib/"

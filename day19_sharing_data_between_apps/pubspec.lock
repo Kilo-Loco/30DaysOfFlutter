@@ -8,10 +8,24 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.0"
+  amplify_api:
+    dependency: "direct main"
+    description:
+      name: amplify_api
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.0"
   amplify_api_plugin_interface:
     dependency: transitive
     description:
       name: amplify_api_plugin_interface
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.0"
+  amplify_auth_cognito:
+    dependency: "direct main"
+    description:
+      name: amplify_auth_cognito
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.0"
@@ -270,4 +284,4 @@ packages:
     version: "2.1.0-nullsafety.3"
 sdks:
   dart: ">=2.10.0-110 <2.11.0"
-  flutter: ">=1.17.0 <2.0.0"
+  flutter: ">=1.20.0 <2.0.0"
