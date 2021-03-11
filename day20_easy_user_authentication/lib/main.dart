@@ -3,6 +3,8 @@ import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
 import 'package:amplify_datastore/amplify_datastore.dart';
 import 'package:amplify_api/amplify_api.dart';
 import 'package:amplify_flutter/amplify.dart';
+import 'package:day18_todo_app/app_navigator.dart';
+import 'package:day18_todo_app/auth_cubit.dart';
 import 'package:day18_todo_app/loading_view.dart';
 import 'package:day18_todo_app/todo_cubit.dart';
 import 'package:day18_todo_app/todos_view.dart';
@@ -33,11 +35,11 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        home: BlocProvider(
-            create: (context) => TodoCubit()
-              ..getTodos()
-              ..observeTodo(),
-            child: _amplifyConfigured ? TodosView() : LoadingView()));
+      home: BlocProvider(
+        create: (context) => AuthCubit()..attemptAutoSignIn(),
+        child: _amplifyConfigured ? AppNavigator() : LoadingView(),
+      ),
+    );
   }
 
   void _configureAmplify() async {
@@ -53,6 +55,7 @@ class _MyAppState extends State<MyApp> {
       setState(() {
         _amplifyConfigured = true;
       });
+      // Amplify.DataStore.clear();
     } catch (e) {
       print(e);
     }

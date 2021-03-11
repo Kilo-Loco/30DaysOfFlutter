@@ -21,8 +21,9 @@ class ListTodosFailure extends TodoState {
 
 class TodoCubit extends Cubit<TodoState> {
   final _todoRepo = TodoRepository();
+  final String userId;
 
-  TodoCubit() : super(LoadingTodos());
+  TodoCubit({this.userId}) : super(LoadingTodos());
 
   void getTodos() async {
     if (state is ListTodosSuccess == false) {
@@ -30,7 +31,7 @@ class TodoCubit extends Cubit<TodoState> {
     }
 
     try {
-      final todos = await _todoRepo.getTodos();
+      final todos = await _todoRepo.getTodos(userId);
       emit(ListTodosSuccess(todos: todos));
     } catch (e) {
       emit(ListTodosFailure(exception: e));
@@ -43,7 +44,7 @@ class TodoCubit extends Cubit<TodoState> {
   }
 
   void createTodo(String title) async {
-    await _todoRepo.createTodo(title);
+    await _todoRepo.createTodo(title, userId);
   }
 
   void updateTodoIsComplete(Todo todo, bool isComplete) async {

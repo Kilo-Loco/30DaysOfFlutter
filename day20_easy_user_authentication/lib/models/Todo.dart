@@ -25,6 +25,7 @@ class Todo extends Model {
   final String id;
   final String title;
   final bool isComplete;
+  final String userId;
 
   @override
   getInstanceType() => classType;
@@ -35,13 +36,21 @@ class Todo extends Model {
   }
 
   const Todo._internal(
-      {@required this.id, @required this.title, @required this.isComplete});
+      {@required this.id,
+      @required this.title,
+      @required this.isComplete,
+      @required this.userId});
 
-  factory Todo({String id, @required String title, @required bool isComplete}) {
+  factory Todo(
+      {String id,
+      @required String title,
+      @required bool isComplete,
+      @required String userId}) {
     return Todo._internal(
         id: id == null ? UUID.getUUID() : id,
         title: title,
-        isComplete: isComplete);
+        isComplete: isComplete,
+        userId: userId);
   }
 
   bool equals(Object other) {
@@ -54,7 +63,8 @@ class Todo extends Model {
     return other is Todo &&
         id == other.id &&
         title == other.title &&
-        isComplete == other.isComplete;
+        isComplete == other.isComplete &&
+        userId == other.userId;
   }
 
   @override
@@ -67,31 +77,36 @@ class Todo extends Model {
     buffer.write("Todo {");
     buffer.write("id=" + "$id" + ", ");
     buffer.write("title=" + "$title" + ", ");
-    buffer.write(
-        "isComplete=" + (isComplete != null ? isComplete.toString() : "null"));
+    buffer.write("isComplete=" +
+        (isComplete != null ? isComplete.toString() : "null") +
+        ", ");
+    buffer.write("userId=" + "$userId");
     buffer.write("}");
 
     return buffer.toString();
   }
 
-  Todo copyWith({String id, String title, bool isComplete}) {
+  Todo copyWith({String id, String title, bool isComplete, String userId}) {
     return Todo(
         id: id ?? this.id,
         title: title ?? this.title,
-        isComplete: isComplete ?? this.isComplete);
+        isComplete: isComplete ?? this.isComplete,
+        userId: userId ?? this.userId);
   }
 
   Todo.fromJson(Map<String, dynamic> json)
       : id = json['id'],
         title = json['title'],
-        isComplete = json['isComplete'];
+        isComplete = json['isComplete'],
+        userId = json['userId'];
 
   Map<String, dynamic> toJson() =>
-      {'id': id, 'title': title, 'isComplete': isComplete};
+      {'id': id, 'title': title, 'isComplete': isComplete, 'userId': userId};
 
   static final QueryField ID = QueryField(fieldName: "todo.id");
   static final QueryField TITLE = QueryField(fieldName: "title");
   static final QueryField ISCOMPLETE = QueryField(fieldName: "isComplete");
+  static final QueryField USERID = QueryField(fieldName: "userId");
   static var schema =
       Model.defineSchema(define: (ModelSchemaDefinition modelSchemaDefinition) {
     modelSchemaDefinition.name = "Todo";
@@ -117,6 +132,11 @@ class Todo extends Model {
         key: Todo.ISCOMPLETE,
         isRequired: true,
         ofType: ModelFieldType(ModelFieldTypeEnum.bool)));
+
+    modelSchemaDefinition.addField(ModelFieldDefinition.field(
+        key: Todo.USERID,
+        isRequired: true,
+        ofType: ModelFieldType(ModelFieldTypeEnum.string)));
   });
 }
 
