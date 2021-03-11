@@ -16,5 +16,23 @@
         "simplefluttertodoapp622f1d1d": {}
       }
     }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-simplefluttertodoapp-dev-141513-authRole",
+      "UnauthRoleArn": "arn:aws:iam::088987693321:role/amplify-simplefluttertodoapp-dev-141513-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::088987693321:role/amplify-simplefluttertodoapp-dev-141513-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-simplefluttertodoapp-dev-141513-deployment",
+      "UnauthRoleName": "amplify-simplefluttertodoapp-dev-141513-unauthRole",
+      "StackName": "amplify-simplefluttertodoapp-dev-141513",
+      "StackId": "arn:aws:cloudformation:us-west-2:088987693321:stack/amplify-simplefluttertodoapp-dev-141513/193734a0-81ee-11eb-a24d-0a29b26acfc7",
+      "AmplifyAppId": "d1fq5qsrwivyze"
+    },
+    "categories": {
+      "auth": {
+        "simplefluttertodoapp622f1d1d": {}
+      }
+    }
   }
 }
