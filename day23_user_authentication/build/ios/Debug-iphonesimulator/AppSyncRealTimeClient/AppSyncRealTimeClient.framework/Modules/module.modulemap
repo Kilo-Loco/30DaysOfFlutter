@@ -1,0 +1,11 @@
+framework module AppSyncRealTimeClient {
+  umbrella header "AppSyncRealTimeClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AppSyncRealTimeClient.Swift {
+    header "AppSyncRealTimeClient-Swift.h"
+    requires objc
+}

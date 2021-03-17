@@ -1,0 +1,8 @@
+{
+    "CreateAPIKey": 1,
+    "AppSyncApiName": "LocoSocialMedia",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-locosocialmedia-staging-203624-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/0d79e65b3c61003eb43bf46f3594fd985bf0ae10"
+}
