@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:social_media_app/auth/auth_cubit.dart';
 import 'package:social_media_app/auth/auth_navigator.dart';
 import 'package:social_media_app/loading_view.dart';
+import 'package:social_media_app/profile/profile_view.dart';
 import 'package:social_media_app/session_cubit.dart';
 import 'package:social_media_app/session_state.dart';
 import 'package:social_media_app/session_view.dart';
@@ -27,11 +28,7 @@ class AppNavigator extends StatelessWidget {
             ),
 
           // Show session flow
-          if (state is Authenticated)
-            MaterialPage(
-                child: SessionView(
-              username: state.user.username,
-            ))
+          if (state is Authenticated) MaterialPage(child: ProfileView())
         ],
         onPopPage: (route, result) => route.didPop(result),
       );
