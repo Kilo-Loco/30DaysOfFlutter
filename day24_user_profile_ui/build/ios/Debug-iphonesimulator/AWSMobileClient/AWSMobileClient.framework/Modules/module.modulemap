@@ -1,0 +1,11 @@
+framework module AWSMobileClient {
+  umbrella header "AWSMobileClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AWSMobileClient.Swift {
+    header "AWSMobileClient-Swift.h"
+    requires objc
+}

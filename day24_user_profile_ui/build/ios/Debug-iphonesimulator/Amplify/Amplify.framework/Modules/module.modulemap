@@ -1,0 +1,11 @@
+framework module Amplify {
+  umbrella header "Amplify-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Amplify.Swift {
+    header "Amplify-Swift.h"
+    requires objc
+}

@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-locosocialmedia-staging-203624-authRole",
+      "UnauthRoleArn": "arn:aws:iam::088987693321:role/amplify-locosocialmedia-staging-203624-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::088987693321:role/amplify-locosocialmedia-staging-203624-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-locosocialmedia-staging-203624-deployment",
+      "UnauthRoleName": "amplify-locosocialmedia-staging-203624-unauthRole",
+      "StackName": "amplify-locosocialmedia-staging-203624",
+      "StackId": "arn:aws:cloudformation:us-west-2:088987693321:stack/amplify-locosocialmedia-staging-203624/469cd8c0-8697-11eb-91d9-0a94cd91dbd7",
+      "AmplifyAppId": "d3a7ob9bmb72hc"
+    },
+    "categories": {
+      "auth": {
+        "locosocialmediad22213c7": {}
+      }
+    }
+  }
+}
