@@ -1,0 +1,11 @@
+framework module amplify_auth_cognito {
+  umbrella header "amplify_auth_cognito-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module amplify_auth_cognito.Swift {
+    header "amplify_auth_cognito-Swift.h"
+    requires objc
+}

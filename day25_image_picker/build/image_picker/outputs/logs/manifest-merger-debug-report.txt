@@ -1,0 +1,45 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:1:1-17:12
+INJECTED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:1:1-17:12
+INJECTED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:1:1-17:12
+	package
+		ADDED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:2:3-43
+		INJECTED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:3:4-78
+	android:name
+		ADDED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:3:21-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:4:4-79
+	android:name
+		ADDED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:4:21-77
+application
+ADDED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:6:5-16:19
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:7:9-15:20
+	android:grantUriPermissions
+		ADDED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:11:13-47
+	android:authorities
+		ADDED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:9:13-74
+	android:exported
+		ADDED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:10:13-37
+	android:name
+		ADDED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:8:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:12:13-14:74
+	android:resource
+		ADDED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:14:17-72
+	android:name
+		ADDED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:13:17-67
+uses-sdk
+INJECTED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml
+INJECTED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml
+		ADDED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml
