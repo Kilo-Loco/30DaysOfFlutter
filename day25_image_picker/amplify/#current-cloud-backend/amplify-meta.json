@@ -1,0 +1,67 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-locosocialmedia-staging-203624-authRole",
+      "UnauthRoleArn": "arn:aws:iam::088987693321:role/amplify-locosocialmedia-staging-203624-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::088987693321:role/amplify-locosocialmedia-staging-203624-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-locosocialmedia-staging-203624-deployment",
+      "UnauthRoleName": "amplify-locosocialmedia-staging-203624-unauthRole",
+      "StackName": "amplify-locosocialmedia-staging-203624",
+      "StackId": "arn:aws:cloudformation:us-west-2:088987693321:stack/amplify-locosocialmedia-staging-203624/469cd8c0-8697-11eb-91d9-0a94cd91dbd7",
+      "AmplifyAppId": "d3a7ob9bmb72hc"
+    }
+  },
+  "api": {
+    "LocoSocialMedia": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 30,
+              "description": "api key description"
+            }
+          },
+          "additionalAuthenticationProviders": [
+            {
+              "authenticationType": "AWS_IAM"
+            }
+          ]
+        },
+        "GraphQLAPIIdOutput": "pasrb5apfrbsnpy74f5xzf2ed4",
+        "GraphQLAPIEndpointOutput": "https://g424g7cllvg47pok4znhowleia.appsync-api.us-west-2.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-uj2boz67lbf5fkr52pa27g7auu"
+      },
+      "lastPushTimeStamp": "2021-03-16T21:08:26.632Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-locosocialmedia-staging-203624-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apiLocoSocialMedia"
+      }
+    }
+  },
+  "auth": {
+    "locosocialmediad22213c7": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-locosocialmedia-staging-203624-deployment/amplify-cfn-templates/auth/locosocialmediad22213c7-cloudformation-template.yml",
+        "logicalId": "authlocosocialmediad22213c7"
+      },
+      "lastPushTimeStamp": "2021-03-16T21:08:26.649Z",
+      "output": {
+        "UserPoolId": "us-west-2_PyYKERLmq",
+        "AppClientIDWeb": "sv2kqk6fn76184u2g272fuivh",
+        "AppClientID": "s2gfg028s87jid7blqple20b2",
+        "IdentityPoolId": "us-west-2:58ba87e8-4c94-4d92-90e9-9e60b6089e39",
+        "IdentityPoolName": "locosocialmediad22213c7_identitypool_d22213c7__staging",
+        "UserPoolName": "locosocialmediad22213c7_userpool_d22213c7"
+      },
+      "lastPushDirHash": "nMWqrfxw9rQxP9ScFNgyyajc0m4="
+    }
+  }
+}
