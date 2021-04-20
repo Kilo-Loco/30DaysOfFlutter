@@ -1,0 +1,36 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.flutter.plugins.imagepicker" >
+4
+5    <uses-sdk android:minSdkVersion="16" />
+5-->/Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml
+6
+7    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+7-->/Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:3:4-78
+7-->/Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:3:21-76
+8    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+8-->/Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:4:4-79
+8-->/Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:4:21-77
+9
+10    <application>
+10-->/Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:6:5-16:19
+11        <provider
+11-->/Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:7:9-15:20
+12            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+12-->/Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:8:13-82
+13            android:authorities="${applicationId}.flutter.image_provider"
+13-->/Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:9:13-74
+14            android:exported="false"
+14-->/Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:10:13-37
+15            android:grantUriPermissions="true" >
+15-->/Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:11:13-47
+16            <meta-data
+16-->/Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:12:13-14:74
+17                android:name="android.support.FILE_PROVIDER_PATHS"
+17-->/Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:13:17-67
+18                android:resource="@xml/flutter_image_picker_file_paths" />
+18-->/Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.3/android/src/main/AndroidManifest.xml:14:17-72
+19        </provider>
+20    </application>
+21
+22</manifest>

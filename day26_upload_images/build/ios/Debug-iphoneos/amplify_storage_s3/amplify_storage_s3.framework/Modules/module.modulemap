@@ -1,0 +1,11 @@
+framework module amplify_storage_s3 {
+  umbrella header "amplify_storage_s3-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module amplify_storage_s3.Swift {
+    header "amplify_storage_s3-Swift.h"
+    requires objc
+}

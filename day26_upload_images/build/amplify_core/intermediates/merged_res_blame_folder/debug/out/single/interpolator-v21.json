@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_core/intermediates/res/merged/debug/interpolator-v21/mtrl_fast_out_linear_in.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/interpolator-v21/mtrl_fast_out_linear_in.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_core/intermediates/res/merged/debug/interpolator-v21/mtrl_fast_out_slow_in.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/interpolator-v21/mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_core/intermediates/res/merged/debug/interpolator-v21/mtrl_linear_out_slow_in.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/interpolator-v21/mtrl_linear_out_slow_in.xml"
+    }
+]

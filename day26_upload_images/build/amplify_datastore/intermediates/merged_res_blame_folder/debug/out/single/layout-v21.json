@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_datastore/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/22596e141ed939448a45bb52248db646/core-1.3.2/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_datastore/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/22596e141ed939448a45bb52248db646/core-1.3.2/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_datastore/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/22596e141ed939448a45bb52248db646/core-1.3.2/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_datastore/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/22596e141ed939448a45bb52248db646/core-1.3.2/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

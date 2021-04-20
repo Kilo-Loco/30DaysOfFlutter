@@ -1,0 +1,11 @@
+framework module AWSPluginsCore {
+  umbrella header "AWSPluginsCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AWSPluginsCore.Swift {
+    header "AWSPluginsCore-Swift.h"
+    requires objc
+}

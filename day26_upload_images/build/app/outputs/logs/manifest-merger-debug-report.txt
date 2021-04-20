@@ -1,0 +1,426 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:1:1-42:12
+INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:1:1-42:12
+INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:1:1-42:12
+INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:1:1-42:12
+MERGED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:1:1-42:12
+MERGED from [:amplify_api] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_api/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:amplify_datastore] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_datastore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:amplify_auth_cognito] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:amplify_flutter] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:amplify_core] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.amplifyframework:aws-api:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/2d75f3bcab37705bf0c1a1140d14bc29/jetified-aws-api-1.16.13/AndroidManifest.xml:16:1-27:12
+MERGED from [com.amplifyframework:aws-datastore:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/a017e9d175bfb384a54246b121f76b18/jetified-aws-datastore-1.16.13/AndroidManifest.xml:16:1-25:12
+MERGED from [com.amplifyframework:aws-api-appsync:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/22b73d998fd773a2a36645b03d310e76/jetified-aws-api-appsync-1.16.13/AndroidManifest.xml:16:1-25:12
+MERGED from [com.amplifyframework:aws-auth-cognito:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/676ffd058e27534db370c36f22106914/jetified-aws-auth-cognito-1.16.13/AndroidManifest.xml:16:1-25:12
+MERGED from [com.amplifyframework:core:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5d9bc73cf3fac2057bab37122af9004c/jetified-core-1.16.13/AndroidManifest.xml:16:1-33:12
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/3044057644860508608ff23584fd35b5/jetified-aws-android-sdk-mobile-client-2.22.1/AndroidManifest.xml:2:1-21:12
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/121c11ddd09143399ce09e4a0abf26b9/jetified-aws-android-sdk-auth-core-2.22.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.amazonaws:aws-android-sdk-cognitoauth:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c59f95e3f0f82e49e8ddcc9beb775bfd/jetified-aws-android-sdk-cognitoauth-2.22.1/AndroidManifest.xml:2:1-20:12
+MERGED from [com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c995225bf018acca6c2e83e44f9bb093/jetified-aws-android-sdk-cognitoidentityprovider-2.22.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.amazonaws:aws-android-sdk-core:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/ce9e614d0b3bd610f06fead08d771865/jetified-aws-android-sdk-core-2.22.1/AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/699f67f2d72ad9902250b3e1c41f0647/exifinterface-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/2d1ee8b369a3512a36e6061d2ed872cf/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/137cd03e63f0cd90bd0deef5fbae2dc7/navigation-ui-ktx-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/96782be1a2d0ef8bf6fae07a75759432/navigation-ui-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c6d01c8c444ebd60070e8fd3602db39e/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/54afc16fd818088e27da13a8acd0eaba/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b69d809a7d56669e263a6dd73fa3f3e0/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/fead7ea2e43546ae73f7f9d07ac64f5f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/07577d154e54b0adac2972fca121771c/jetified-navigation-dynamic-features-fragment-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/148c132b5ca8ef620102cd400fcb7dd6/navigation-fragment-ktx-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/274aba747ba0f0640ca9a86881b911f1/navigation-fragment-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/2b5d140b673750757dac4e19659de60e/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/8f14fd61f4bbe43a8e7b153644b49b8c/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/84712267057b9e394e8f8aeff9c71732/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/eb26273f8f7192460456ce62b9bdf9ef/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c55ef91c26d4308e6afaf93e553ef302/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/6e82373554eac6f416a47581a6cf4f62/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/52c69b4f4fec00237e0aae8710e7f210/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/a8c9db3ca2e5a5f26eac5bd45a08a448/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/93b67ce77e3018bae7dcfb3d9df971c2/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/160a788508b1035896be80451e5f76d6/browser-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/d9536c14ffde0b7289f12ba6def6bfa4/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/bb361c9951ec30a475ef40f80e89b874/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/57910a85af155c3103487e39ce23f678/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/f9658563285b4d8662c527a4c4918ae0/jetified-navigation-dynamic-features-runtime-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/e5f127e3f485cf8b179f2ccd7bad1a3d/navigation-runtime-ktx-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/383a28d713241d648b4104a5775b7d4e/navigation-runtime-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/f08b97fdb853e731d3ffc2c6775ea651/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/e057f30d723ab31a86f16413fef00946/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/d9d165c25020f2987169572256473563/navigation-common-ktx-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b7ed1ce73c165a32ac54ef39367b6b68/navigation-common-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/f009c9c609f704b7d969e53ce0d51df0/jetified-core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/a59d1de1f299e68c5b049a432ccfd655/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/42415d22b488b741b7e8fbc712464c00/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/22596e141ed939448a45bb52248db646/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/82b7b4d68432a955f09eebc41d91babd/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/ca6b214160bd0909b103aa12202ef51c/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/fa20de45c046546e80ba995ab13078de/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/34ed2610cf229bfa1c818e2a0a3ce81a/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/fb333fb43575d8a3b51161295454427f/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/29678415f69bf4bd5840cc900ada27f7/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/2271d874344878e62b9a8e309af0c39d/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/28c8bed6fae67e41db98432923c9a958/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c39070be4a8b092ae5970162a829e305/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/96aee308bccd03bc62c306516c23a410/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/15ddec56bd001fb2d4fc04a7d71346e8/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b6c34301107cd06a29fdce8c3ef58e3a/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/f15d67ff15ac844b69200ea1a0376a7a/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b962778313a0e23f9ca3dbafc012c1af/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/d95dc589938e84737855237fb3675f5e/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50b807d57321d114fa2f2b136ff77724/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5948e9b6947236ccb3f5762413952c41/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/66ed1157e4f1d8bb8a2be0ee477a5984/jetified-rxandroid-3.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/e0fd5e1ca6d8af2526223d2abecd725b/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:2:5-43
+		INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:1:1-42:12
+		INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:1:1-42:12
+		INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:3:4-41:19
+MERGED from [:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [com.amplifyframework:core:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5d9bc73cf3fac2057bab37122af9004c/jetified-core-1.16.13/AndroidManifest.xml:27:5-31:19
+MERGED from [com.amplifyframework:core:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5d9bc73cf3fac2057bab37122af9004c/jetified-core-1.16.13/AndroidManifest.xml:27:5-31:19
+MERGED from [com.amazonaws:aws-android-sdk-cognitoauth:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c59f95e3f0f82e49e8ddcc9beb775bfd/jetified-aws-android-sdk-cognitoauth-2.22.1/AndroidManifest.xml:12:5-18:19
+MERGED from [com.amazonaws:aws-android-sdk-cognitoauth:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c59f95e3f0f82e49e8ddcc9beb775bfd/jetified-aws-android-sdk-cognitoauth-2.22.1/AndroidManifest.xml:12:5-18:19
+MERGED from [com.amazonaws:aws-android-sdk-core:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/ce9e614d0b3bd610f06fead08d771865/jetified-aws-android-sdk-core-2.22.1/AndroidManifest.xml:11:5-15:19
+MERGED from [com.amazonaws:aws-android-sdk-core:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/ce9e614d0b3bd610f06fead08d771865/jetified-aws-android-sdk-core-2.22.1/AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/22596e141ed939448a45bb52248db646/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/22596e141ed939448a45bb52248db646/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/96aee308bccd03bc62c306516c23a410/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/96aee308bccd03bc62c306516c23a410/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:10:3-17:17
+MERGED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:10:3-17:17
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/22596e141ed939448a45bb52248db646/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:4:9-41
+	android:icon
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:5:9-43
+activity#com.example.social_media_app.MainActivity
+ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:6:9-35:20
+	android:requestLegacyExternalStorage
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:12:13-56
+	android:launchMode
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:8:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:11:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:13:13-55
+	android:configChanges
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:10:13-163
+	android:theme
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:9:13-47
+	android:name
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:7:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:18:13-21:17
+	android:resource
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:20:15-52
+	android:name
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:19:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:27:13-30:17
+	android:resource
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:29:15-61
+	android:name
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:28:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:31:13-34:29
+action#android.intent.action.MAIN
+ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:32:17-68
+	android:name
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:33:17-76
+	android:name
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:33:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:38:9-40:33
+	android:value
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:40:13-30
+	android:name
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:39:13-44
+uses-sdk
+INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:amplify_api] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_api/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_api] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_api/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_datastore] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_datastore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_datastore] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_datastore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_auth_cognito] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_auth_cognito] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_flutter] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_flutter] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_core] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_core] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.amplifyframework:aws-api:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/2d75f3bcab37705bf0c1a1140d14bc29/jetified-aws-api-1.16.13/AndroidManifest.xml:21:5-23:41
+MERGED from [com.amplifyframework:aws-api:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/2d75f3bcab37705bf0c1a1140d14bc29/jetified-aws-api-1.16.13/AndroidManifest.xml:21:5-23:41
+MERGED from [com.amplifyframework:aws-datastore:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/a017e9d175bfb384a54246b121f76b18/jetified-aws-datastore-1.16.13/AndroidManifest.xml:21:5-23:41
+MERGED from [com.amplifyframework:aws-datastore:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/a017e9d175bfb384a54246b121f76b18/jetified-aws-datastore-1.16.13/AndroidManifest.xml:21:5-23:41
+MERGED from [com.amplifyframework:aws-api-appsync:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/22b73d998fd773a2a36645b03d310e76/jetified-aws-api-appsync-1.16.13/AndroidManifest.xml:21:5-23:41
+MERGED from [com.amplifyframework:aws-api-appsync:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/22b73d998fd773a2a36645b03d310e76/jetified-aws-api-appsync-1.16.13/AndroidManifest.xml:21:5-23:41
+MERGED from [com.amplifyframework:aws-auth-cognito:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/676ffd058e27534db370c36f22106914/jetified-aws-auth-cognito-1.16.13/AndroidManifest.xml:21:5-23:41
+MERGED from [com.amplifyframework:aws-auth-cognito:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/676ffd058e27534db370c36f22106914/jetified-aws-auth-cognito-1.16.13/AndroidManifest.xml:21:5-23:41
+MERGED from [com.amplifyframework:core:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5d9bc73cf3fac2057bab37122af9004c/jetified-core-1.16.13/AndroidManifest.xml:21:5-23:41
+MERGED from [com.amplifyframework:core:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5d9bc73cf3fac2057bab37122af9004c/jetified-core-1.16.13/AndroidManifest.xml:21:5-23:41
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/3044057644860508608ff23584fd35b5/jetified-aws-android-sdk-mobile-client-2.22.1/AndroidManifest.xml:13:5-16:96
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/3044057644860508608ff23584fd35b5/jetified-aws-android-sdk-mobile-client-2.22.1/AndroidManifest.xml:13:5-16:96
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/121c11ddd09143399ce09e4a0abf26b9/jetified-aws-android-sdk-auth-core-2.22.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/121c11ddd09143399ce09e4a0abf26b9/jetified-aws-android-sdk-auth-core-2.22.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.amazonaws:aws-android-sdk-cognitoauth:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c59f95e3f0f82e49e8ddcc9beb775bfd/jetified-aws-android-sdk-cognitoauth-2.22.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.amazonaws:aws-android-sdk-cognitoauth:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c59f95e3f0f82e49e8ddcc9beb775bfd/jetified-aws-android-sdk-cognitoauth-2.22.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c995225bf018acca6c2e83e44f9bb093/jetified-aws-android-sdk-cognitoidentityprovider-2.22.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c995225bf018acca6c2e83e44f9bb093/jetified-aws-android-sdk-cognitoidentityprovider-2.22.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.amazonaws:aws-android-sdk-core:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/ce9e614d0b3bd610f06fead08d771865/jetified-aws-android-sdk-core-2.22.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.amazonaws:aws-android-sdk-core:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/ce9e614d0b3bd610f06fead08d771865/jetified-aws-android-sdk-core-2.22.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/699f67f2d72ad9902250b3e1c41f0647/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/699f67f2d72ad9902250b3e1c41f0647/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/2d1ee8b369a3512a36e6061d2ed872cf/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/2d1ee8b369a3512a36e6061d2ed872cf/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/137cd03e63f0cd90bd0deef5fbae2dc7/navigation-ui-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/137cd03e63f0cd90bd0deef5fbae2dc7/navigation-ui-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/96782be1a2d0ef8bf6fae07a75759432/navigation-ui-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/96782be1a2d0ef8bf6fae07a75759432/navigation-ui-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c6d01c8c444ebd60070e8fd3602db39e/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c6d01c8c444ebd60070e8fd3602db39e/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/54afc16fd818088e27da13a8acd0eaba/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/54afc16fd818088e27da13a8acd0eaba/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b69d809a7d56669e263a6dd73fa3f3e0/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b69d809a7d56669e263a6dd73fa3f3e0/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/fead7ea2e43546ae73f7f9d07ac64f5f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/fead7ea2e43546ae73f7f9d07ac64f5f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/07577d154e54b0adac2972fca121771c/jetified-navigation-dynamic-features-fragment-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/07577d154e54b0adac2972fca121771c/jetified-navigation-dynamic-features-fragment-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/148c132b5ca8ef620102cd400fcb7dd6/navigation-fragment-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/148c132b5ca8ef620102cd400fcb7dd6/navigation-fragment-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/274aba747ba0f0640ca9a86881b911f1/navigation-fragment-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/274aba747ba0f0640ca9a86881b911f1/navigation-fragment-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/2b5d140b673750757dac4e19659de60e/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/2b5d140b673750757dac4e19659de60e/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/8f14fd61f4bbe43a8e7b153644b49b8c/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/8f14fd61f4bbe43a8e7b153644b49b8c/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/84712267057b9e394e8f8aeff9c71732/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/84712267057b9e394e8f8aeff9c71732/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/eb26273f8f7192460456ce62b9bdf9ef/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/eb26273f8f7192460456ce62b9bdf9ef/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c55ef91c26d4308e6afaf93e553ef302/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c55ef91c26d4308e6afaf93e553ef302/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/6e82373554eac6f416a47581a6cf4f62/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/6e82373554eac6f416a47581a6cf4f62/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/52c69b4f4fec00237e0aae8710e7f210/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/52c69b4f4fec00237e0aae8710e7f210/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/a8c9db3ca2e5a5f26eac5bd45a08a448/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/a8c9db3ca2e5a5f26eac5bd45a08a448/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/93b67ce77e3018bae7dcfb3d9df971c2/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/93b67ce77e3018bae7dcfb3d9df971c2/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/160a788508b1035896be80451e5f76d6/browser-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/160a788508b1035896be80451e5f76d6/browser-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/d9536c14ffde0b7289f12ba6def6bfa4/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/d9536c14ffde0b7289f12ba6def6bfa4/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/bb361c9951ec30a475ef40f80e89b874/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/bb361c9951ec30a475ef40f80e89b874/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/57910a85af155c3103487e39ce23f678/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/57910a85af155c3103487e39ce23f678/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/f9658563285b4d8662c527a4c4918ae0/jetified-navigation-dynamic-features-runtime-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/f9658563285b4d8662c527a4c4918ae0/jetified-navigation-dynamic-features-runtime-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/e5f127e3f485cf8b179f2ccd7bad1a3d/navigation-runtime-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/e5f127e3f485cf8b179f2ccd7bad1a3d/navigation-runtime-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/383a28d713241d648b4104a5775b7d4e/navigation-runtime-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/383a28d713241d648b4104a5775b7d4e/navigation-runtime-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/f08b97fdb853e731d3ffc2c6775ea651/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/f08b97fdb853e731d3ffc2c6775ea651/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/e057f30d723ab31a86f16413fef00946/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/e057f30d723ab31a86f16413fef00946/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/d9d165c25020f2987169572256473563/navigation-common-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/d9d165c25020f2987169572256473563/navigation-common-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b7ed1ce73c165a32ac54ef39367b6b68/navigation-common-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b7ed1ce73c165a32ac54ef39367b6b68/navigation-common-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/f009c9c609f704b7d969e53ce0d51df0/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/f009c9c609f704b7d969e53ce0d51df0/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/a59d1de1f299e68c5b049a432ccfd655/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/a59d1de1f299e68c5b049a432ccfd655/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/42415d22b488b741b7e8fbc712464c00/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/42415d22b488b741b7e8fbc712464c00/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/22596e141ed939448a45bb52248db646/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/22596e141ed939448a45bb52248db646/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/82b7b4d68432a955f09eebc41d91babd/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/82b7b4d68432a955f09eebc41d91babd/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/ca6b214160bd0909b103aa12202ef51c/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/ca6b214160bd0909b103aa12202ef51c/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/fa20de45c046546e80ba995ab13078de/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/fa20de45c046546e80ba995ab13078de/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/34ed2610cf229bfa1c818e2a0a3ce81a/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/34ed2610cf229bfa1c818e2a0a3ce81a/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/fb333fb43575d8a3b51161295454427f/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/fb333fb43575d8a3b51161295454427f/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/29678415f69bf4bd5840cc900ada27f7/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/29678415f69bf4bd5840cc900ada27f7/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/2271d874344878e62b9a8e309af0c39d/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/2271d874344878e62b9a8e309af0c39d/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/28c8bed6fae67e41db98432923c9a958/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/28c8bed6fae67e41db98432923c9a958/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c39070be4a8b092ae5970162a829e305/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c39070be4a8b092ae5970162a829e305/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/96aee308bccd03bc62c306516c23a410/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/96aee308bccd03bc62c306516c23a410/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/15ddec56bd001fb2d4fc04a7d71346e8/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/15ddec56bd001fb2d4fc04a7d71346e8/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b6c34301107cd06a29fdce8c3ef58e3a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b6c34301107cd06a29fdce8c3ef58e3a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/f15d67ff15ac844b69200ea1a0376a7a/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/f15d67ff15ac844b69200ea1a0376a7a/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b962778313a0e23f9ca3dbafc012c1af/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b962778313a0e23f9ca3dbafc012c1af/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/d95dc589938e84737855237fb3675f5e/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/d95dc589938e84737855237fb3675f5e/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50b807d57321d114fa2f2b136ff77724/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50b807d57321d114fa2f2b136ff77724/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5948e9b6947236ccb3f5762413952c41/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5948e9b6947236ccb3f5762413952c41/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/66ed1157e4f1d8bb8a2be0ee477a5984/jetified-rxandroid-3.0.0/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/66ed1157e4f1d8bb8a2be0ee477a5984/jetified-rxandroid-3.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/e0fd5e1ca6d8af2526223d2abecd725b/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/e0fd5e1ca6d8af2526223d2abecd725b/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:4:3-70
+MERGED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:4:3-70
+INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/debug/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.amazonaws:aws-android-sdk-mobile-client:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/3044057644860508608ff23584fd35b5/jetified-aws-android-sdk-mobile-client-2.22.1/AndroidManifest.xml:16:9-93
+	android:targetSdkVersion
+		INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [com.amplifyframework:aws-api:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/2d75f3bcab37705bf0c1a1140d14bc29/jetified-aws-api-1.16.13/AndroidManifest.xml:25:5-67
+MERGED from [com.amplifyframework:aws-api:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/2d75f3bcab37705bf0c1a1140d14bc29/jetified-aws-api-1.16.13/AndroidManifest.xml:25:5-67
+MERGED from [com.amplifyframework:core:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5d9bc73cf3fac2057bab37122af9004c/jetified-core-1.16.13/AndroidManifest.xml:25:5-67
+MERGED from [com.amplifyframework:core:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5d9bc73cf3fac2057bab37122af9004c/jetified-core-1.16.13/AndroidManifest.xml:25:5-67
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/3044057644860508608ff23584fd35b5/jetified-aws-android-sdk-mobile-client-2.22.1/AndroidManifest.xml:18:5-67
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/3044057644860508608ff23584fd35b5/jetified-aws-android-sdk-mobile-client-2.22.1/AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/debug/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+activity#com.amplifyframework.devmenu.DeveloperMenuActivity
+ADDED from [com.amplifyframework:core:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5d9bc73cf3fac2057bab37122af9004c/jetified-core-1.16.13/AndroidManifest.xml:28:9-30:54
+	android:theme
+		ADDED from [com.amplifyframework:core:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5d9bc73cf3fac2057bab37122af9004c/jetified-core-1.16.13/AndroidManifest.xml:30:13-51
+	android:name
+		ADDED from [com.amplifyframework:core:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5d9bc73cf3fac2057bab37122af9004c/jetified-core-1.16.13/AndroidManifest.xml:29:13-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.amazonaws:aws-android-sdk-mobile-client:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/3044057644860508608ff23584fd35b5/jetified-aws-android-sdk-mobile-client-2.22.1/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-mobile-client:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/3044057644860508608ff23584fd35b5/jetified-aws-android-sdk-mobile-client-2.22.1/AndroidManifest.xml:19:22-76
+activity#com.amazonaws.mobileconnectors.cognitoauth.activities.CustomTabsManagerActivity
+ADDED from [com.amazonaws:aws-android-sdk-cognitoauth:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c59f95e3f0f82e49e8ddcc9beb775bfd/jetified-aws-android-sdk-cognitoauth-2.22.1/AndroidManifest.xml:13:9-17:75
+	android:launchMode
+		ADDED from [com.amazonaws:aws-android-sdk-cognitoauth:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c59f95e3f0f82e49e8ddcc9beb775bfd/jetified-aws-android-sdk-cognitoauth-2.22.1/AndroidManifest.xml:16:13-44
+	android:exported
+		ADDED from [com.amazonaws:aws-android-sdk-cognitoauth:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c59f95e3f0f82e49e8ddcc9beb775bfd/jetified-aws-android-sdk-cognitoauth-2.22.1/AndroidManifest.xml:15:13-37
+	android:theme
+		ADDED from [com.amazonaws:aws-android-sdk-cognitoauth:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c59f95e3f0f82e49e8ddcc9beb775bfd/jetified-aws-android-sdk-cognitoauth-2.22.1/AndroidManifest.xml:17:13-72
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-cognitoauth:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c59f95e3f0f82e49e8ddcc9beb775bfd/jetified-aws-android-sdk-cognitoauth-2.22.1/AndroidManifest.xml:14:13-107
+uses-library#org.apache.http.legacy
+ADDED from [com.amazonaws:aws-android-sdk-core:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/ce9e614d0b3bd610f06fead08d771865/jetified-aws-android-sdk-core-2.22.1/AndroidManifest.xml:12:9-14:40
+	android:required
+		ADDED from [com.amazonaws:aws-android-sdk-core:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/ce9e614d0b3bd610f06fead08d771865/jetified-aws-android-sdk-core-2.22.1/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-core:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/ce9e614d0b3bd610f06fead08d771865/jetified-aws-android-sdk-core-2.22.1/AndroidManifest.xml:13:13-50
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:8:3-74
+	android:name
+		ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:8:20-72
+activity#com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:12:5-271
+	android:process
+		ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:12:152-203
+	android:enabled
+		ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:12:103-126
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:12:240-269
+	android:launchMode
+		ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:12:204-239
+	android:exported
+		ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:12:127-151
+	android:name
+		ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:12:15-102
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:13:5-226
+	android:enabled
+		ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:13:96-119
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:13:145-174
+	android:exported
+		ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:13:120-144
+	android:theme
+		ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:13:175-224
+	android:name
+		ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:13:15-95
+service#com.google.android.play.core.assetpacks.AssetPackExtractionService
+ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:16:5-145
+	android:enabled
+		ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:16:96-119
+	android:exported
+		ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:16:120-143
+	android:name
+		ADDED from [com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:16:14-95

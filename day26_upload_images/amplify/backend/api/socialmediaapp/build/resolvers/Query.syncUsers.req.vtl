@@ -1,0 +1,12 @@
+{
+  "version": "2018-05-29",
+  "operation": "Sync",
+  "limit": $util.defaultIfNull($ctx.args.limit, 100),
+  "nextToken": $util.toJson($util.defaultIfNull($ctx.args.nextToken, null)),
+  "lastSync": $util.toJson($util.defaultIfNull($ctx.args.lastSync, null)),
+  "filter":   #if( $context.args.filter )
+$util.transform.toDynamoDBFilterExpression($ctx.args.filter)
+  #else
+null
+  #end
+}

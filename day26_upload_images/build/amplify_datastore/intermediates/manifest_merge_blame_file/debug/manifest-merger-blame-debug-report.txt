@@ -1,0 +1,8 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.amazonaws.amplify.amplify_datastore" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+5-->/Users/kiloloco/Library/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/amplify_datastore-0.1.0/android/src/main/AndroidManifest.xml
+6
+7</manifest>
