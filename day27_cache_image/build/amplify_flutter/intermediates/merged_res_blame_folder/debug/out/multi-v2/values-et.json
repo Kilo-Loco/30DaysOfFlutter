@@ -1,0 +1,150 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_flutter/intermediates/res/merged/debug/values-et/values-et.xml",
+            "map": [
+                {
+                    "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/96782be1a2d0ef8bf6fae07a75759432/navigation-ui-2.3.2/res/values-et/values-et.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,164",
+                        "endColumns": "108,120",
+                        "endOffsets": "159,280"
+                    },
+                    "to": {
+                        "startLines": "32,33",
+                        "startColumns": "4,4",
+                        "startOffsets": "3166,3275",
+                        "endColumns": "108,120",
+                        "endOffsets": "3270,3391"
+                    }
+                },
+                {
+                    "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/07577d154e54b0adac2972fca121771c/jetified-navigation-dynamic-features-fragment-2.3.2/res/values-et/values-et.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,163,266,361,425,503",
+                        "endColumns": "107,102,94,63,77,77",
+                        "endOffsets": "158,261,356,420,498,576"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,34,35,36",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "2860,2968,3071,3396,3460,3538",
+                        "endColumns": "107,102,94,63,77,77",
+                        "endOffsets": "2963,3066,3161,3455,3533,3611"
+                    }
+                },
+                {
+                    "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/a69d6fcd21e670073cd9cab171299398/core-1.3.0/res/values-et/values-et.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "38",
+                        "startColumns": "4",
+                        "startOffsets": "3698",
+                        "endColumns": "100",
+                        "endOffsets": "3794"
+                    }
+                },
+                {
+                    "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/ddfeebee320e213e4569474cdfe875cf/appcompat-1.0.0/res/values-et/values-et.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,222,329,440,526,628,745,825,903,995,1089,1194,1296,1406,1500,1601,1695,1787,1880,1963,2074,2179,2278,2388,2489,2592,2758,2860",
+                        "endColumns": "116,106,110,85,101,116,79,77,91,93,104,101,109,93,100,93,91,92,82,110,104,98,109,100,102,165,101,81",
+                        "endOffsets": "217,324,435,521,623,740,820,898,990,1084,1189,1291,1401,1495,1596,1690,1782,1875,1958,2069,2174,2273,2383,2484,2587,2753,2855,2937"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,222,329,440,526,628,745,825,903,995,1089,1194,1296,1406,1500,1601,1695,1787,1880,1963,2074,2179,2278,2388,2489,2592,2758,3616",
+                        "endColumns": "116,106,110,85,101,116,79,77,91,93,104,101,109,93,100,93,91,92,82,110,104,98,109,100,102,165,101,81",
+                        "endOffsets": "217,324,435,521,623,740,820,898,990,1084,1189,1291,1401,1495,1596,1690,1782,1875,1958,2069,2174,2273,2383,2484,2587,2753,2855,3693"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_flutter/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml",
+            "map": [
+                {
+                    "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/96782be1a2d0ef8bf6fae07a75759432/navigation-ui-2.3.2/res/values-et/values-et.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,164",
+                        "endColumns": "108,120",
+                        "endOffsets": "159,280"
+                    },
+                    "to": {
+                        "startLines": "32,33",
+                        "startColumns": "4,4",
+                        "startOffsets": "3166,3275",
+                        "endColumns": "108,120",
+                        "endOffsets": "3270,3391"
+                    }
+                },
+                {
+                    "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/07577d154e54b0adac2972fca121771c/jetified-navigation-dynamic-features-fragment-2.3.2/res/values-et/values-et.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,163,266,361,425,503",
+                        "endColumns": "107,102,94,63,77,77",
+                        "endOffsets": "158,261,356,420,498,576"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,34,35,36",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "2860,2968,3071,3396,3460,3538",
+                        "endColumns": "107,102,94,63,77,77",
+                        "endOffsets": "2963,3066,3161,3455,3533,3611"
+                    }
+                },
+                {
+                    "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/a69d6fcd21e670073cd9cab171299398/core-1.3.0/res/values-et/values-et.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "38",
+                        "startColumns": "4",
+                        "startOffsets": "3698",
+                        "endColumns": "100",
+                        "endOffsets": "3794"
+                    }
+                },
+                {
+                    "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/ddfeebee320e213e4569474cdfe875cf/appcompat-1.0.0/res/values-et/values-et.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,222,329,440,526,628,745,825,903,995,1089,1194,1296,1406,1500,1601,1695,1787,1880,1963,2074,2179,2278,2388,2489,2592,2758,2860",
+                        "endColumns": "116,106,110,85,101,116,79,77,91,93,104,101,109,93,100,93,91,92,82,110,104,98,109,100,102,165,101,81",
+                        "endOffsets": "217,324,435,521,623,740,820,898,990,1084,1189,1291,1401,1495,1596,1690,1782,1875,1958,2069,2174,2273,2383,2484,2587,2753,2855,2937"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,222,329,440,526,628,745,825,903,995,1089,1194,1296,1406,1500,1601,1695,1787,1880,1963,2074,2179,2278,2388,2489,2592,2758,3616",
+                        "endColumns": "116,106,110,85,101,116,79,77,91,93,104,101,109,93,100,93,91,92,82,110,104,98,109,100,102,165,101,81",
+                        "endOffsets": "217,324,435,521,623,740,820,898,990,1084,1189,1291,1401,1495,1596,1690,1782,1875,1958,2069,2174,2273,2383,2484,2587,2753,2855,3693"
+                    }
+                }
+            ]
+        }
+    ]
+}

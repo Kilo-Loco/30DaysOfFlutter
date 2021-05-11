@@ -1,0 +1,65 @@
+#if( $authCondition )
+  #set( $condition = $authCondition )
+  #if( $modelObjectKey )
+    #foreach( $entry in $modelObjectKey.entrySet() )
+      $util.qr($condition.put("expression", "$condition.expression AND attribute_exists(#keyCondition$velocityCount)"))
+      $util.qr($condition.expressionNames.put("#keyCondition$velocityCount", "$entry.key"))
+    #end
+  #else
+    $util.qr($condition.put("expression", "$condition.expression AND attribute_exists(#id)"))
+    $util.qr($condition.expressionNames.put("#id", "id"))
+  #end
+#else
+  #if( $modelObjectKey )
+    #set( $condition = {
+  "expression": "",
+  "expressionNames": {}
+} )
+    #foreach( $entry in $modelObjectKey.entrySet() )
+      #if( $velocityCount == 1 )
+        $util.qr($condition.put("expression", "attribute_exists(#keyCondition$velocityCount)"))
+      #else
+        $util.qr($condition.put("expression", "$condition.expression AND attribute_exists(#keyCondition$velocityCount)"))
+      #end
+      $util.qr($condition.expressionNames.put("#keyCondition$velocityCount", "$entry.key"))
+    #end
+  #else
+    #set( $condition = {
+  "expression": "attribute_exists(#id)",
+  "expressionNames": {
+      "#id": "id"
+  }
+} )
+  #end
+#end
+#if( $versionedCondition )
+  $util.qr($condition.put("expression", "($condition.expression) AND $versionedCondition.expression"))
+  $util.qr($condition.expressionNames.putAll($versionedCondition.expressionNames))
+  #set( $expressionValues = $util.defaultIfNull($condition.expressionValues, {}) )
+  $util.qr($expressionValues.putAll($versionedCondition.expressionValues))
+  #set( $condition.expressionValues = $expressionValues )
+#end
+#if( $context.args.condition )
+  #set( $conditionFilterExpressions = $util.parseJson($util.transform.toDynamoDBConditionExpression($context.args.condition)) )
+  $util.qr($condition.put("expression", "($condition.expression) AND $conditionFilterExpressions.expression"))
+  $util.qr($condition.expressionNames.putAll($conditionFilterExpressions.expressionNames))
+  #set( $conditionExpressionValues = $util.defaultIfNull($condition.expressionValues, {}) )
+  $util.qr($conditionExpressionValues.putAll($conditionFilterExpressions.expressionValues))
+  #set( $condition.expressionValues = $conditionExpressionValues )
+  $util.qr($condition.expressionValues.putAll($conditionFilterExpressions.expressionValues))
+#end
+#if( $condition.expressionValues && $condition.expressionValues.size() == 0 )
+  #set( $condition = {
+  "expression": $condition.expression,
+  "expressionNames": $condition.expressionNames
+} )
+#end
+{
+  "version": "2018-05-29",
+  "operation": "DeleteItem",
+  "key": #if( $modelObjectKey ) $util.toJson($modelObjectKey) #else {
+  "id": $util.dynamodb.toDynamoDBJson($ctx.args.input.id)
+} #end,
+  "condition": $util.toJson($condition),
+  "_version": $util.defaultIfNull($ctx.args.input["_version"], "0")
+}

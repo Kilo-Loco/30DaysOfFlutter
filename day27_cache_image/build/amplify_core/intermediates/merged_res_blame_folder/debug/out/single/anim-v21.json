@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_core/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_core/intermediates/res/merged/debug/anim-v21/fragment_fast_out_extra_slow_in.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/8f14fd61f4bbe43a8e7b153644b49b8c/fragment-1.2.4/res/anim-v21/fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_core/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_flutter/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_flutter/intermediates/res/merged/debug/layout-sw600dp-v13/mtrl_layout_snackbar.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
+    }
+]

@@ -1,0 +1,11 @@
+framework module amplify_datastore {
+  umbrella header "amplify_datastore-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module amplify_datastore.Swift {
+    header "amplify_datastore-Swift.h"
+    requires objc
+}

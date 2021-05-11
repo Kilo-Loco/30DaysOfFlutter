@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_fab_ripple_color.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_fab_ripple_color.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_chip_text_color.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_chip_text_color.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_tabs_icon_color_selector.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_tabs_icon_color_selector.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_btn_ripple_color.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_btn_ripple_color.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_text_btn_text_color_selector.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_text_btn_text_color_selector.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_bottom_nav_colored_item_tint.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_bottom_nav_colored_item_tint.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_tabs_icon_color_selector_colored.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_tabs_icon_color_selector_colored.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_tabs_ripple_color.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_tabs_ripple_color.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_chip_ripple_color.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_chip_ripple_color.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_chip_background_color.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_chip_background_color.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_chip_close_icon_tint.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_chip_close_icon_tint.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_tabs_legacy_text_color_selector.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_tabs_legacy_text_color_selector.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_btn_text_color_selector.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_btn_text_color_selector.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_btn_stroke_color_selector.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_btn_stroke_color_selector.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_bottom_nav_item_tint.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_bottom_nav_item_tint.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/design_error.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_btn_bg_color_selector.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_btn_bg_color_selector.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_btn_text_btn_ripple_color.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_btn_text_btn_ripple_color.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/mtrl_tabs_colored_ripple_color.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/50f23f4316049b4dbfe8a24fb2e3d1c5/material-1.0.0/res/color/mtrl_tabs_colored_ripple_color.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/amplify_auth_cognito/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/color/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

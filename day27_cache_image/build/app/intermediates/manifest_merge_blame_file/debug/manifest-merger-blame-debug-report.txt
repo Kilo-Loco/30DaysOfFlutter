@@ -1,0 +1,182 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.social_media_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+15-->[:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+16-->[:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permission will be merged into the manifest of the hosting app. -->
+17-->[com.amazonaws:aws-android-sdk-mobile-client:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/3044057644860508608ff23584fd35b5/jetified-aws-android-sdk-mobile-client-2.22.1/AndroidManifest.xml:19:5-79
+17-->[com.amazonaws:aws-android-sdk-mobile-client:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/3044057644860508608ff23584fd35b5/jetified-aws-android-sdk-mobile-client-2.22.1/AndroidManifest.xml:19:22-76
+18    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:8:3-74
+19-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:8:20-72
+20
+21    <application
+21-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:3:4-41:19
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.3.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/22596e141ed939448a45bb52248db646/core-1.3.2/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:5:9-43
+25        android:label="social_media_app" >
+25-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:4:9-41
+26        <activity
+26-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:6:9-35:20
+27            android:name="com.example.social_media_app.MainActivity"
+27-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:7:13-41
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+28-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:10:13-163
+29            android:hardwareAccelerated="true"
+29-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:11:13-47
+30            android:launchMode="singleTop"
+30-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:8:13-43
+31            android:requestLegacyExternalStorage="true"
+31-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:12:13-56
+32            android:theme="@style/LaunchTheme"
+32-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:9:13-47
+33            android:windowSoftInputMode="adjustResize" >
+33-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:13:13-55
+34
+35            <!--
+36                 Specifies an Android theme to apply to this Activity as soon as
+37                 the Android process has started. This theme is visible to the user
+38                 while the Flutter UI initializes. After that, this theme continues
+39                 to determine the Window background behind the Flutter UI.
+40            -->
+41            <meta-data
+41-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:18:13-21:17
+42                android:name="io.flutter.embedding.android.NormalTheme"
+42-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:19:15-70
+43                android:resource="@style/NormalTheme" />
+43-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:20:15-52
+44            <!--
+45                 Displays an Android View that continues showing the launch screen
+46                 Drawable until Flutter paints its first frame, then this splash
+47                 screen fades out. A splash screen is useful to avoid any visual
+48                 gap between the end of Android's launch screen and the painting of
+49                 Flutter's first frame.
+50            -->
+51            <meta-data
+51-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:27:13-30:17
+52                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+52-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:28:15-79
+53                android:resource="@drawable/launch_background" />
+53-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:29:15-61
+54
+55            <intent-filter>
+55-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:31:13-34:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:32:17-68
+56-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:32:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:33:17-76
+58-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:33:27-74
+59            </intent-filter>
+60        </activity>
+61        <!--
+62             Don't delete the meta-data below.
+63             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+64        -->
+65        <meta-data
+65-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:38:9-40:33
+66            android:name="flutterEmbedding"
+66-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:39:13-44
+67            android:value="2" />
+67-->/Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/android/app/src/main/AndroidManifest.xml:40:13-30
+68
+69        <provider
+69-->[:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+70            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+70-->[:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+71            android:authorities="com.example.social_media_app.flutter.image_provider"
+71-->[:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+72            android:exported="false"
+72-->[:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+73            android:grantUriPermissions="true" >
+73-->[:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+74            <meta-data
+74-->[:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+75                android:name="android.support.FILE_PROVIDER_PATHS"
+75-->[:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+76                android:resource="@xml/flutter_image_picker_file_paths" />
+76-->[:image_picker] /Users/kiloloco/local/repos/30DaysOfFlutter/social_media_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+77        </provider>
+78
+79        <activity
+79-->[com.amplifyframework:core:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5d9bc73cf3fac2057bab37122af9004c/jetified-core-1.16.13/AndroidManifest.xml:28:9-30:54
+80            android:name="com.amplifyframework.devmenu.DeveloperMenuActivity"
+80-->[com.amplifyframework:core:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5d9bc73cf3fac2057bab37122af9004c/jetified-core-1.16.13/AndroidManifest.xml:29:13-78
+81            android:theme="@style/OverlayActivity" />
+81-->[com.amplifyframework:core:1.16.13] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/5d9bc73cf3fac2057bab37122af9004c/jetified-core-1.16.13/AndroidManifest.xml:30:13-51
+82        <activity
+82-->[com.amazonaws:aws-android-sdk-cognitoauth:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c59f95e3f0f82e49e8ddcc9beb775bfd/jetified-aws-android-sdk-cognitoauth-2.22.1/AndroidManifest.xml:13:9-17:75
+83            android:name="com.amazonaws.mobileconnectors.cognitoauth.activities.CustomTabsManagerActivity"
+83-->[com.amazonaws:aws-android-sdk-cognitoauth:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c59f95e3f0f82e49e8ddcc9beb775bfd/jetified-aws-android-sdk-cognitoauth-2.22.1/AndroidManifest.xml:14:13-107
+84            android:exported="false"
+84-->[com.amazonaws:aws-android-sdk-cognitoauth:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c59f95e3f0f82e49e8ddcc9beb775bfd/jetified-aws-android-sdk-cognitoauth-2.22.1/AndroidManifest.xml:15:13-37
+85            android:launchMode="singleTask"
+85-->[com.amazonaws:aws-android-sdk-cognitoauth:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c59f95e3f0f82e49e8ddcc9beb775bfd/jetified-aws-android-sdk-cognitoauth-2.22.1/AndroidManifest.xml:16:13-44
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+86-->[com.amazonaws:aws-android-sdk-cognitoauth:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/c59f95e3f0f82e49e8ddcc9beb775bfd/jetified-aws-android-sdk-cognitoauth-2.22.1/AndroidManifest.xml:17:13-72
+87
+88        <uses-library
+88-->[com.amazonaws:aws-android-sdk-core:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/ce9e614d0b3bd610f06fead08d771865/jetified-aws-android-sdk-core-2.22.1/AndroidManifest.xml:12:9-14:40
+89            android:name="org.apache.http.legacy"
+89-->[com.amazonaws:aws-android-sdk-core:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/ce9e614d0b3bd610f06fead08d771865/jetified-aws-android-sdk-core-2.22.1/AndroidManifest.xml:13:13-50
+90            android:required="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+90-->[com.amazonaws:aws-android-sdk-core:2.22.1] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/ce9e614d0b3bd610f06fead08d771865/jetified-aws-android-sdk-core-2.22.1/AndroidManifest.xml:14:13-37
+91        <activity
+91-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:12:5-271
+92            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+92-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:12:15-102
+93            android:enabled="false"
+93-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:12:103-126
+94            android:exported="false"
+94-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:12:127-151
+95            android:launchMode="singleInstance"
+95-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:12:204-239
+96            android:process=":playcore_missing_splits_activity"
+96-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:12:152-203
+97            android:stateNotNeeded="true" />
+97-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:12:240-269
+98        <activity
+98-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:13:5-226
+99            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+99-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:13:15-95
+100            android:enabled="false"
+100-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:13:96-119
+101            android:exported="false"
+101-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:13:120-144
+102            android:stateNotNeeded="true"
+102-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:13:145-174
+103            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+103-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:13:175-224
+104        <service
+104-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:16:5-145
+105            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+105-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:16:14-95
+106            android:enabled="false"
+106-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:16:96-119
+107            android:exported="true" />
+107-->[com.google.android.play:core:1.7.2] /Users/kiloloco/.gradle/caches/transforms-2/files-2.1/b787c727c07385e2f0b0aea94ee7eb95/jetified-core-1.7.2/AndroidManifest.xml:16:120-143
+108    </application>
+109
+110</manifest>
