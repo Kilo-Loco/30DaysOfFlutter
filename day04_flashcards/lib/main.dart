@@ -20,7 +20,10 @@ class _MyAppState extends State<MyApp> {
     Flashcard(question: "Who you gonna call?", answer: "Ghostbusters!"),
     Flashcard(
         question: "Who teaches you how to write sexy code?",
-        answer: "Ya boi Kilo Loco!")
+        answer: "Ya boi Kilo Loco!"),
+    Flashcard(
+        question: "Which widget replace OutlineButton?",
+        answer: "OutlinedButton"),
   ];
 
   int _currentIndex = 0;
@@ -46,11 +49,11 @@ class _MyAppState extends State<MyApp> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  OutlineButton.icon(
+                  OutlinedButton.icon(
                       onPressed: showPreviousCard,
                       icon: Icon(Icons.chevron_left),
                       label: Text('Prev')),
-                  OutlineButton.icon(
+                  OutlinedButton.icon(
                       onPressed: showNextCard,
                       icon: Icon(Icons.chevron_right),
                       label: Text('Next')),
