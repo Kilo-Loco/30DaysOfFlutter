@@ -42,13 +42,17 @@ class _MyAppState extends State<MyApp> {
           Padding(
             padding: EdgeInsets.only(top: 50),
           ),
-          FlatButton(
+          TextButton(
             onPressed: () {
               updateIndex();
             },
-            child: Text('Pick Restaurant'),
-            color: Colors.purple,
-            textColor: Colors.white,
+            child: Text(
+              'Pick Restaurant',
+              style: TextStyle(color: Colors.white),
+            ),
+            style: TextButton.styleFrom(
+              backgroundColor: Colors.purple,
+            ),
           )
         ],
       ))),
