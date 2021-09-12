@@ -14,7 +14,7 @@ class _MyAppState extends State<MyApp> {
 
   List<bool> _selection = [true, false, false];
 
-  String tip;
+  String? tip;
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
               Padding(
                 padding: EdgeInsets.all(20),
                 child: Text(
-                  tip,
+                  tip!,
                   style: TextStyle(fontSize: 30),
                 ),
               ),
@@ -49,11 +49,16 @@ class _MyAppState extends State<MyApp> {
                   isSelected: _selection,
                   onPressed: updateSelection),
             ),
-            FlatButton(
-                onPressed: calculateTip,
-                child: Text('Calculate Tip'),
-                color: Colors.green,
-                textColor: Colors.white)
+            TextButton(
+              onPressed: calculateTip,
+              child: Text(
+                'Calculate Tip',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
+              style: TextButton.styleFrom(backgroundColor: Colors.green),
+            )
           ],
         ),
       ),
