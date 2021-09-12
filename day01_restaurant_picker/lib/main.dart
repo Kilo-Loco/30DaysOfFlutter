@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
     'Subway'
   ];
 
-  int currentIndex;
+  int? currentIndex;
 
   @override
   Widget build(BuildContext context) {
@@ -35,20 +35,24 @@ class _MyAppState extends State<MyApp> {
           Text('What do you want to eat?'),
           if (currentIndex != null)
             Text(
-              restaurants[currentIndex],
+              restaurants[currentIndex!],
               style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
               textAlign: TextAlign.center,
             ),
           Padding(
             padding: EdgeInsets.only(top: 50),
           ),
-          FlatButton(
+          TextButton(
             onPressed: () {
               updateIndex();
             },
-            child: Text('Pick Restaurant'),
-            color: Colors.purple,
-            textColor: Colors.white,
+            child: Text(
+              'Pick Restaurant',
+              style: TextStyle(color: Colors.white),
+            ),
+            style: TextButton.styleFrom(
+              backgroundColor: Colors.purple,
+            ),
           )
         ],
       ))),
