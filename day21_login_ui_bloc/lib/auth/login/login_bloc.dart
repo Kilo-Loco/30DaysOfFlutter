@@ -5,30 +5,29 @@ import 'package:social_media_app/auth/login/login_event.dart';
 import 'package:social_media_app/auth/login/login_state.dart';
 
 class LoginBloc extends Bloc<LoginEvent, LoginState> {
-  final AuthRepository authRepo;
+  final AuthRepository authRepository;
 
-  LoginBloc({this.authRepo}) : super(LoginState());
+  LoginBloc({required this.authRepository}) : super(LoginState()) {
+    on<LoginUsernameChanged>(_onLoginUsernameChanged);
+    on<LoginPasswordChanged>(_onLoginPasswordChanged);
+    on<LoginSubmitted>(_onLoginSubmitted);
+  }
 
-  @override
-  Stream<LoginState> mapEventToState(LoginEvent event) async* {
-    // Username updated
-    if (event is LoginUsernameChanged) {
-      yield state.copyWith(username: event.username);
+  void _onLoginUsernameChanged(LoginUsernameChanged event, Emitter<LoginState> emit) async {
+    emit(state.copyWith(username: event.username));
+  }
 
-      // Password updated
-    } else if (event is LoginPasswordChanged) {
-      yield state.copyWith(password: event.password);
+  void _onLoginPasswordChanged(LoginPasswordChanged event, Emitter<LoginState> emit) async {
+    emit(state.copyWith(password: event.password));
+  }
 
-      // Form submitted
-    } else if (event is LoginSubmitted) {
-      yield state.copyWith(formStatus: FormSubmitting());
-
-      try {
-        await authRepo.login();
-        yield state.copyWith(formStatus: SubmissionSuccess());
-      } catch (e) {
-        yield state.copyWith(formStatus: SubmissionFailed(e));
-      }
+  void _onLoginSubmitted(LoginSubmitted event, Emitter<LoginState> emit) async {
+    emit(state.copyWith(formStatus: FormSubmitting()));
+    try {
+      await authRepository.login();
+      emit(state.copyWith(formStatus: SubmissionSuccess()));
+    } on Exception catch (e) {
+      emit(state.copyWith(formStatus: SubmissionFailed(e)));
     }
   }
 }
