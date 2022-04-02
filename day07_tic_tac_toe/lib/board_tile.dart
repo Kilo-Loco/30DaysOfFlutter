@@ -21,7 +21,7 @@ class BoardTile extends StatelessWidget {
   }
 
   Widget _widgetForTileState() {
-    Widget widget;
+    Widget widget= Image.asset(''); // initialize with a default value to avoid error
 
     switch (tileState) {
       case TileState.EMPTY:
