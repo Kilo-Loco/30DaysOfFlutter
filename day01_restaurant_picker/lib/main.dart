@@ -42,14 +42,14 @@ class _MyAppState extends State<MyApp> {
           Padding(
             padding: EdgeInsets.only(top: 50),
           ),
-          FlatButton(
-            onPressed: () {
-              updateIndex();
-            },
-            child: Text('Pick Restaurant'),
-            color: Colors.purple,
-            textColor: Colors.white,
-          )
+          ElevatedButton(
+            onPressed: () {},
+            child: Text('Pick Snaks'),
+            style: ButtonStyle(
+              backgroundColor: MaterialStateProperty.all<Color>(Colors.purple),
+              foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
+            ),
+          ),
         ],
       ))),
     );
