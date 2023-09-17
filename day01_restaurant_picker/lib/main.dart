@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
     'Subway'
   ];
 
-  int currentIndex;
+  var currentIndex;
 
   @override
   Widget build(BuildContext context) {
